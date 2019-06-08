@@ -1,9 +1,8 @@
 # SpringBoot+MyBatis+Swagger2+PageHelper
 ## 项目背景
-适用于前后的分离
-分支介绍：
+##### 适用于前后的分离
+#### 分支介绍：
 master：唯一分支
-系统要点入口（必须）
 Swagger UI：http://localhost:8181/doc.html
 Druid:  http://localhost:8181/druid/index.html
 Druid用户名：admin
@@ -33,19 +32,24 @@ Blog（有微信联系方式）：https://www.mutounao.cn/
 
 #### 分页接口图列：
 
-![](F:\个人\笔记\img\1560007371942.png)
+![](https://www.mutounao.cn/img/1560007371942.png)
 
+
+
+#### Mybatis-generator插件：
+
+![1560012432955](https://www.mutounao.cn/img/20190609_Mybatis.png)
 
 
 #### Swagger2：
 
-![](F:\个人\笔记\img\20190609_Swagger2.png)
+![](https://www.mutounao.cn/img/20190609_Swagger2.png)
 
 
 #### 404页面：
 
-![](F:\个人\笔记\img\20190609_404.png)
+![](https://www.mutounao.cn/img/20190609_404.png)
 
 #### 505页面：
 
-![](F:\个人\笔记\img\20190609_505.png)
+![](https://www.mutounao.cn/img/20190609_505.png)
