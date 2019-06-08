@@ -1,0 +1,2 @@
+[2019-06-08 22:51:06] WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner 142 doScan - No MyBatis mapper was found in '[cn.mutounao.demo.config, cn.mutounao.demo]' package. Please check your configuration.
+[2019-06-08 22:51:06] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner 166 doScan - No MyBatis mapper was found in '[cn.mutounao.demo.config, cn.mutounao.demo]' package. Please check your configuration.

@@ -1,0 +1,34 @@
+[2019-06-08 22:51:04] DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+[2019-06-08 22:51:06] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar 184 registerBeanDefinitions - Searching for mappers annotated with @Mapper
+[2019-06-08 22:51:06] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar 196 registerBeanDefinitions - Using auto-configuration base package 'cn.mutounao.demo.config'
+[2019-06-08 22:51:06] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar 196 registerBeanDefinitions - Using auto-configuration base package 'cn.mutounao.demo'
+[2019-06-08 22:51:08] DEBUG org.mybatis.spring.SqlSessionFactoryBean 437 buildSqlSessionFactory - Scanned package: 'cn.mutounao.demo.mapper' for aliases
+[2019-06-08 22:51:08] DEBUG org.mybatis.spring.SqlSessionFactoryBean 529 buildSqlSessionFactory - Parsed mapper file: 'file [C:\Users\admin\Desktop\demo123\demo\target\classes\mapper\TestMapper.xml]'
+[2019-06-08 22:51:09] DEBUG org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration 234 afterPropertiesSet - No org.mybatis.spring.mapper.MapperFactoryBean found.
+[2019-06-08 22:51:17] DEBUG org.mybatis.spring.SqlSessionUtils 97 getSqlSession - Creating a new SqlSession
+[2019-06-08 22:51:17] DEBUG org.mybatis.spring.SqlSessionUtils 148 registerSessionHolder - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63c729e7] was not registered for synchronization because synchronization is not active
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 132 connectionLog - {conn-10001} connected
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 132 connectionLog - {conn-10002} connected
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 132 connectionLog - {conn-10003} connected
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 132 connectionLog - {conn-10004} connected
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 132 connectionLog - {conn-10005} connected
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 132 connectionLog - {conn-10005} pool-connect
+[2019-06-08 22:51:18] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction 87 openConnection - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4143454a] will not be managed by Spring
+[2019-06-08 22:51:18] DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: SELECT count(0) FROM test 
+[2019-06-08 22:51:18] DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20000, rs-50000} open
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20000, rs-50000} Header: [count(0)]
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20000, rs-50000} Result: [4]
+[2019-06-08 22:51:18] DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20000, rs-50000} closed
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.pool.PreparedStatementPool 129 put - {conn-10005, pstmt-20000} enter cache
+[2019-06-08 22:51:18] DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==>  Preparing: SELECT id,name,title FROM test LIMIT ? 
+[2019-06-08 22:51:18] DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - ==> Parameters: 1(Integer)
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20001, rs-50001} open
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20001, rs-50001} Header: [id, name, title]
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20001, rs-50001} Result: [1, 1, 1]
+[2019-06-08 22:51:18] DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger 159 debug - <==      Total: 1
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 142 resultSetLog - {conn-10005, pstmt-20001, rs-50001} closed
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.pool.PreparedStatementPool 129 put - {conn-10005, pstmt-20001} enter cache
+[2019-06-08 22:51:18] DEBUG org.mybatis.spring.SqlSessionUtils 191 closeSqlSession - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63c729e7]
+[2019-06-08 22:51:18] DEBUG com.alibaba.druid.filter.logging.Log4j2Filter 132 connectionLog - {conn-10005} pool-recycle
